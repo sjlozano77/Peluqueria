@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<!--<p id="info"> la info es: </p>-->
+	
+<form id="formulario" name="formulario" >
+	 	Nombre<input id="nombre" type="tx" name="nombre">
+	 	Apellido<input id="apellido" type="text" name="apellido" onclick="validar(1)">
+	 	Correo<input id="mail" type="email" name="mail" onclick="validar(2)">
+	 	Cantidad<input id="cantidad" type="number" name="cantidad" onclick="validar(3)" >
+	 	
+	 	<select id="rubro" name="rubro" onclick="validar(4)">
+	 		<option value="">Selecciones un elemento</option>
+	 		<option value="1">Bronce</option>
+	 		<option value="2">Plata</option>
+	 		<option value="3">Oro</option>
+	 	</select>
+	 	<p id="pago">Total a pagar: $</p>
+	 	<button onclick="validar(5)">Resumen </button>
+	 </form>
+	
+	  <script type="text/javascript" src="prueba.js"></script>
+</body>
+</html>
